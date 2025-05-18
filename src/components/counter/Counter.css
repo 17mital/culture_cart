@@ -1,0 +1,52 @@
+
+
+ .counter{
+   border: 1px solid var(--nest-primary);
+   padding: 5px;
+   width: 90px;
+   border-radius: 4px;
+   position: relative;
+}
+
+ .counter h1 {
+  font-size: 16px;
+  color: #000000;
+  margin-left: 20px;
+  margin-top: 5px;
+
+}
+
+ .counter .upper {
+  border: none;
+  background: transparent;
+  position: absolute;
+  right: 6px;
+  top: -11px;
+  font-size: 25px !important;
+  color: var(--nest-primary);
+}
+
+ .counter .lower {
+  border: none;
+  background: transparent;
+  position: absolute;
+  right: 9px;
+  top: 16px;
+  font-size: 18px !important;
+  color: var(--nest-primary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

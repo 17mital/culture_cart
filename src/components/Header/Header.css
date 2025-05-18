@@ -1,0 +1,550 @@
+
+/***** Header css ******/
+.logo {
+  max-width: 85%;
+}
+
+.header-middle {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 20px 0px;
+
+  z-index: 999 !important;
+
+}
+.middle-bar {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.header-middle .header-search{
+  width: 100%;
+  height: 55px;
+  border: var(--nest-border);
+  border-radius: 4px; 
+  padding: 0px 10px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.header-middle .header-search .select-drop{
+  width: 28%;
+  padding: 10px 5px;
+  position: relative;
+}
+.header-middle .header-search .select-drop::after {
+  content: "";
+  height: 29px;
+  width: 1px;
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.header-middle .header-search .select-drop p{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.header-middle .header-search .search{
+ width: 75%;
+ position: relative;
+ 
+}
+.header-middle .header-search .search .search-icon {
+  position: absolute;
+  right: 5px;
+  top: 11px;
+  font-size: 28px;
+  font-weight: 500;
+  color: rgba(0,0,0, 0.5);
+}
+
+.header-middle .header-search .search input{
+ width: 100%;
+ height: 50px;
+ border: 0px;
+ font-size: 14px;
+}
+
+/********** Cart-wishlist-account css **************/
+.header-middle .cart-wish-account {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-middle .cart-wish-account .header-cart-wishlist .header-action-icon-2 {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  position: relative;
+
+
+}
+.header-middle .cart-wish-account .header-cart-wishlist .dropdown-menu-abc {
+  position: absolute;
+  right: 22px;
+  top: 76px;
+  padding: 10px 0px;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  z-index: 99999999;
+  background-color: #fff !important;
+}
+
+ .cart-wish-account .header-cart-wishlist .dropdown-menu-abc .drop-down-hover {
+  padding: 2px 13px;
+  width: 160px;
+
+}
+
+
+.cart-wish-account .header-cart-wishlist .dropdown-menu-abc .drop-down-hover button{
+  border: none !important;
+  background: transparent;
+
+}
+
+ .cart-wish-account .header-cart-wishlist .dropdown-menu-abc .drop-down-hover button a {
+    background: transparent !important;
+    padding: 8px 5px;
+    font-size: 14px;
+    color: #636262;
+    display: block;
+    padding: 5px 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.cart-wish-account .header-cart-wishlist .dropdown-menu-abc .drop-down-hover button  a:hover {
+  color: var(--nest-primary) !important;
+
+}
+.cart-wish-account .header-cart-wishlist .dropdown-menu-abc .drop-down-hover button  a svg{
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+ .cart-wish-account .header-cart-wishlist .header-action-icon-2 .compare-box{
+  position: relative;
+}
+
+.cart-wish-account .header-cart-wishlist .header-action-icon-2 .compare-box .pro-count {
+  background-color: var(--nest-primary);
+  display: block;
+  height: 20px !important;
+  width: 20px !important;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 11px !important;
+  line-height: 20px;
+  position: absolute;
+  left: 14px;
+  top: -8px;
+  text-align: center;
+}
+
+.cart-wish-account .header-cart-wishlist .header-action-icon-2 a.compare-text{
+  margin-top: 11px;
+  margin-left: 2px;
+  color: #636262;
+}
+
+
+/* sign-in-btn  */
+.sign-in-btn{
+  border: none;
+}
+.sign-in-btn a{
+  background-color: var(--nest-primary);
+  padding: 10px 20px;
+  display: inline-block;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+.sign-in-btn a:hover{
+background-color: #ffa500;
+}
+
+/****************** Responsive css header part  ***************/
+
+ @media (min-width : 320px) and (max-width: 575px){ 
+  .navbar-menu, .dropDownMenuAcc {
+    width: 80% !important;
+  }
+  
+}
+
+ @media (min-width : 575px) and (max-width: 767px){ 
+  .navbar-menu, .dropDownMenuAcc {
+    width: 60% !important;
+  }
+
+  
+}
+
+
+ @media (min-width : 767px) and (max-width: 992px){ 
+  .navbar-menu, .dropDownMenuAcc {
+    width: 50% !important;
+
+  }
+}   
+
+
+
+
+/*******  Min width 320px & Max 768px   *********/
+
+@media (min-width : 320px) and (max-width: 768px){ 
+  .container-fluid {
+    padding: 0px 25px !important;
+  }
+
+
+}
+
+
+/*******  Min width 320px & Max 992px   *********/
+
+@media (min-width : 320px) and (max-width: 992px){ 
+
+ body, html{
+  overflow-x: hidden !important;
+ }
+ .container-fluid {
+  padding: 0px 30px !important;
+}
+
+.header-part1 {
+ width: 100% !important;
+ padding: 9px 0px !important;
+
+}
+
+.header-part1 .logo {
+ max-width: 100% !important;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+}
+
+.header-part1 .logo img{
+  width: 120px;
+}
+
+.header-part1 .logo .navBarToogle {
+  margin-left: auto;
+  width: 35px;
+  font-size: 24px;
+}
+
+.header-part1 .logo .navBarToogle .search{
+  margin-right: 10px;
+}
+
+
+  .header-part1 .logo .header-cart-wishlist{
+    position: relative;
+    margin-right: 25px;
+  }
+  .header-part1 .logo .header-cart-wishlist a img{
+    width: 20px;
+   }
+
+  .header-part1 .header-cart-wishlist .pro-count {
+    background-color: var(--nest-primary);
+    display: block;
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 11px !important;
+    line-height: 20px;
+    position: absolute;
+    left: 14px;
+    top: -8px;
+    text-align: center;
+  }
+
+  /* part 222222  */
+  .my-custom-header {
+    display: inline;
+    z-index: 999999;
+}
+  
+  .header-middle {
+    padding: 0px !important;
+    box-shadow: 0px 1px 5px #0000001a;
+    border: 1px solid #f1f1f1;
+    position: fixed;
+    top: 0px !important;
+    background: #fff !important;
+ }
+
+  .header-middle .header-search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    border: none;
+    padding: 5px  !important;
+    position: fixed !important;
+    top:55px;
+    right: -100px;
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
+    padding: 5px 14px !important;
+
+    opacity: 0;
+  }
+
+  .header-middle .header-search.open{
+    opacity: 1;
+    right: 0px;
+
+    z-index: 9999;
+  }
+
+
+  .header-part2 .closeSearch{
+     position: absolute;
+     top: 0px;
+     left: 5px;
+     width: 40px;
+  }
+
+
+  .middle-bar{
+    padding: 0px !important;
+  }
+
+  .header-part2 .closeSearch svg{
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .header-middle .header-search .select-drop {
+    width: 100%;
+    padding: 10px 5px;
+    position: relative;
+    margin-top: 35px !important;
+  }
+
+  .header-middle .header-search .select-drop p {
+    margin-right: 5px;
+    align-items: center;
+    display: flex;
+  }
+
+
+  .header-middle .header-search .search{
+    width: 100%;
+    padding: 0px 12px !important;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 187, 187);
+    padding-top: 10px;
+  }
+
+  .select-drop .select-drop-category svg {
+  margin-left: auto !important;
+  }
+
+  .header-middle .header-search .select-drop::after {
+    right: 3px !important;
+  }
+
+  .SelectDrop-box{
+    max-width:100% !important ; 
+    display: block;
+  }
+
+  .search{
+    max-width:100% !important ; 
+    display: block;
+  }
+
+  .myAccDrop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33px;
+    width: 33px;
+    background-color: var(--nest-primary);
+    border-radius: 50%;
+
+  }
+ .myAccDrop svg{
+   color: #fff !important; 
+   font-size: 16px
+ }
+
+.res-hide{
+  display: none !important;
+}
+
+.part1.nav-part1 {
+  display: none !important;
+}
+
+.part3.nav-part3{
+  display: none !important;
+} 
+
+
+ /* menu  */
+.navbar-menu {
+  height: 100% !important;
+  position: fixed;
+  top: 0px;
+  right: -100%;
+  background: #fff !important;
+
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  z-index: 9999999 !important;
+}
+
+.navbar-menu.open{
+  opacity: 1;
+  right: 0px;
+}
+
+.navbar-menu ul {
+  padding-top: 5px;
+}
+
+.navbar-menu ul li{
+  width: 100%;
+  margin: 0px !;
+  padding: 12px 0px ;
+}
+
+.navbar-menu ul li a{
+  width: 100% !important;
+  display: flex !important;
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px !important;
+}
+
+.navbar-menu ul li a svg{
+  display: none !important;
+  font-size: 14px !important;
+}
+
+
+.navbarOverlay{
+  width: 100% !important;
+  height: 100% !important;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0, 0.5);
+  z-index: 5;
+}
+
+.list-item-single .dropDown-menu{
+  display: none !important;
+} 
+
+.sign-in-btnabc {
+  background: var(--nest-primary) !important;
+  border: none;
+  width: 96%;
+  padding: 9px 0px;
+  font-weight: 500;
+  margin: 5px 10px !important;
+  border-radius: 4px;
+}
+
+.sign-in-btnabc a{
+  color: #fff;
+}
+
+ .dropDownMenuAcc{
+  height: 100vh !important;
+  right: 0% !important;
+  top: -30px !important;
+  opacity: 1 !important;
+  padding-left: 20px !important;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  background: #fff !important;
+  margin-left: auto;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  
+  z-index: 999999 !important;
+} 
+
+
+.dropDownMenuAcc  li button{
+   border: none;
+   background: transparent;
+}
+
+.dropDownMenuAcc  li button a{
+   display: block;
+   color: #636262;
+   padding: 7px 0px;
+   width: 100%;
+}
+
+.dropDownMenuAcc  li button a svg{
+  padding-right: 3px !important;
+  font-size: 20px;
+}
+
+.dropDownMenuAcc  li button a:hover {
+   color: var(--nest-primary) !important;
+}
+
+.dropDownMenuAcc  li button a img{
+  width: 16px;
+}
+
+
+
+
+
+}; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

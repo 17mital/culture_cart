@@ -1,0 +1,53 @@
+
+.not-found{
+  padding: 100px 0px;
+}
+
+.not-show{
+  width: 45%;
+  margin: auto;
+}
+
+.not-show img{
+   width: 30%;
+}
+
+.not-show h2{
+   font-size: 70px;
+   color: #253D4E;
+
+}
+
+.not-show p{
+   font-size: 17px;
+   color: #7E7E7E;
+   font-weight: 400;
+   margin-bottom: 15px;
+}
+
+.not-show p a{
+   color: var(--nest-primary);
+}
+.not-show .back-to-home{
+ background-color: var(--nest-primary);
+ border: 1px solid transparent;
+ border-radius: 4px;
+ color: #fff;
+ cursor: pointer;
+ display: inline-block;
+ font-size: 14px;
+ font-weight: 700;
+ letter-spacing: .5px;
+ padding: 12px 30px;
+ transition: all .3s linear 0s;
+
+}
+
+.btn, .button {
+
+}
+
+
+
+
+

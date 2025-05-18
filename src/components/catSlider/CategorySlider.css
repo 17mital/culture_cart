@@ -1,0 +1,140 @@
+
+
+.category-slider {
+  width: 100%;
+  height: auto;
+  padding: 30px 0px;
+} 
+
+.category-slider-main{
+  position: relative;
+}
+
+.category-slider-main .slick-slide{
+  padding-right: 20px;
+}
+
+.category-slider-main .slick-arrow.slick-next {
+  position: absolute;
+  top: -30%;
+  right: 0px;
+}
+.category-slider-main .slick-arrow.slick-prev {
+  position: absolute;
+  top: -30%;
+  right: 9%;
+  left: inherit !important;
+}
+
+
+
+.category-slider-main .category-item{
+  max-width: 100%;
+  height: auto;
+  background-color: #F4F6FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #F4F6FA;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out !important;
+}
+
+
+.category-slider-main .category-item .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out !important;
+}
+
+.category-slider-main .category-item .info h5{
+  font-size: 20px;
+  font-weight: 700;
+  color: #253D4E;
+}
+
+
+.category-slider-main .category-item .info span {
+  color: #7E7E7E;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 18px;
+}
+
+
+
+.category-slider-main .category-item:hover {
+  background: #fff;
+  border: 1px solid #BCE3C9;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out; 
+}
+
+.category-slider-main .category-item:hover h6 a{
+  color: var(--nest-primary) !important;
+}
+
+/******************************* Responsive css ****************************/
+
+@media (min-width : 320px) and (max-width: 575px){ 
+ .category-slider .heading{
+  font-size: 20px;
+  margin-bottom: 12px !important;
+ }
+
+}
+
+/******* Min Width 320px & Max Width 768px ********/
+@media (min-width : 320px) and (max-width: 768px){ 
+   .category-slider .heading{
+  font-size: 20px;
+  margin-bottom: 12px !important;
+ }
+ .category-slider-main .category-item .info h5{
+  font-size: 16px;
+ }
+ .category-slider-main .category-item .info img{
+  width: 60px !important;
+ }
+ .category-slider-main .category-item .info span{
+  font-size: 14px;
+ }
+
+ .category-slider-main .slick-track .slick-slide {
+  display: inline-block !important;
+}
+
+}
+
+/******* Min Width 320px & Max Width 992px ********/
+@media (min-width : 320px) and (max-width: 992px){ 
+ .category-slider-main .slick-track{
+   white-space: nowrap !important;
+   overflow-x: scroll !important;
+   display: block !important;
+
+ }
+
+ .category-slider-main .slick-track::-webkit-scrollbar{
+  display: none !important;
+ }
+
+ .category-slider-main .slick-track .slick-slide {
+  display: inline-block !important;
+  width: 200px !important;
+  float: none !important;
+}
+
+.category-slider-main .category-item .info h5{
+  margin-bottom: 5px !important;
+} 
+
+
+}
+
+
+

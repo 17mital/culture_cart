@@ -1,0 +1,253 @@
+
+/****** Shop page css  *********/
+.listingProduct {
+  background-image: url(../../assets/img/banner/header-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px 20px;
+  border-radius: 20px;
+}
+
+.listingProduct .breadCrumb{
+   padding: 50px 0px;
+}
+
+.listingProduct .breadCrumb h2{
+    font-size: 45px;
+    color: #253D4E;
+    font-weight: 700;
+}
+.listingProduct .breadCrumb ul li{
+  font-size: 15px !important;
+}
+.listingProduct .breadCrumb ul li a{
+  color: #7E7E7E;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/*sidebar  */
+.left-sidebar{
+   max-width: 20%;
+   padding: 0px;
+}
+
+.filters-btn{
+  display: none;
+}
+
+.right-sidebar{
+  max-width: 80%;
+}
+
+.col-lg-9{
+  flex: 0 0 auto;
+  width: 80%;
+}
+.right-sidebar .top-strip{
+  padding-left: 20px;
+}
+.right-sidebar .top-strip p{
+   padding: 20px 0px;
+  font-size: 16px;
+}
+
+.right-sidebar .top-strip .ml-auto .tab-item { 
+   position: relative;
+}
+
+.right-sidebar .top-strip .ml-auto .tab-item .show-btn {
+  padding: 7px 13px;
+  background: none;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #838383;
+}
+
+.tab-item ul.dropdown-menu-abc {
+  position: absolute;
+  right: 0px;
+  top: 100%;
+  z-index: 9999999;
+}
+
+
+.tab-item ul.dropdown-menu-abc li button{
+  background-color: #fff !important;
+  font-size: 13px;
+  width: 120px;
+  font-weight: 500;
+  padding: 10px 20px;
+  display: inline-block;
+  border: none;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+}
+.tab-item ul.dropdown-menu-abc li:hover button{
+   background-color: var(--nest-primary) !important;
+   color: #fff;
+}
+
+.product-row .item.width-big {
+  width: 25% !important;
+}
+
+/******** Responsive css shop page   ****************/
+
+
+@media (min-width : 320px) and (max-width: 576px){
+  .right-sidebar .top-strip {
+    padding-left: 20px;
+    display: flex !important;
+    flex-direction: column;
+    align-items: start !important;
+    margin-bottom: 10px !important;
+  }
+
+  .popular-products .product-row {
+    margin-left: 0px !important;
+  }
+
+ .product-row .item.width-big {
+  width: 50% !important;
+ } 
+
+ .productThumb .product-image {
+  height: auto !important;
+}
+
+
+}
+
+@media (min-width : 320px) and (max-width: 350px){
+  .product-row .item.width-big {
+    width: 100% !important;
+    display: block;
+  } 
+
+}
+@media (min-width : 550px) and (max-width: 768px){
+  .product-row .item.width-big {
+    width: 33% !important;
+
+  } 
+
+}
+
+
+
+
+  @media (min-width : 320px) and (max-width: 768px){
+    .listingProduct .breadCrumb {
+      padding: 25px 0px;
+  }
+
+  .listingProduct {
+    margin-top: 56px !important;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .listingProduct .breadCrumb h2 {
+    font-size: 35px;
+    color: #253D4E;
+    font-weight: 600;
+  }
+
+
+
+  }
+
+
+
+  @media (min-width : 320px) and (max-width: 992px){
+
+  .res-hide{
+    display: none !important;
+  }
+    .left-sidebar {
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      bottom: -100px;
+      opacity: 0;
+      width: 100%;
+      z-index: 99999999;
+      background: #fff;
+      max-width: 100%;
+      flex: 0 0 100%;
+      padding: 0px !important;
+  }
+
+  .right-sidebar {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    padding: 0px !important;
+  }
+
+  .productThumb .product-image {
+    height: auto !important;
+  }
+
+  .card-box.abcd {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #ffff !important;
+    width: 100%;
+    height: 100vh !important;
+    z-index: 99;
+   }
+
+   .card-box .btn-default-filter {
+   width: 100% !important;
+   text-align: center;
+ }
+
+
+.filters-btn{
+   position: fixed;
+  display: block;
+  width: 95% !important;
+  left: 0px;
+  bottom: 5px;
+  z-index: 99999;
+  opacity: 1;
+  margin: 0px 10px ;
+ }
+
+ .left-sidebar.open{
+  bottom: 0px;
+  opacity: 1;
+ }
+
+ .sidebar-left.click{
+  pointer-events: inherit !important;
+ }
+
+ .left-sidebar{
+  pointer-events: none !important;
+ }
+
+
+
+  }
+
+
+
+  @media (min-width : 768px) and (max-width: 1020px){
+    .listingProduct {
+      margin-top: 56px !important;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+  }
+
+
+
+
+

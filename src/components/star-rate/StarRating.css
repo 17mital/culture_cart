@@ -1,0 +1,19 @@
+
+.icon-style {
+  display: flex !important;
+  gap: 0.2rem;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  display: inline-block !important;
+}
+
+.icon-style .icon {
+    font-size: 1rem;
+    color: orange !important;
+  }
+
+
+
+
+
+

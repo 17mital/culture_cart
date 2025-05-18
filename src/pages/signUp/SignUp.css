@@ -1,0 +1,120 @@
+
+
+.image-login {
+  padding-right: 20px !important;
+}
+.login-section{
+  background-color: #f1f1f1;
+}
+
+.image-login img{
+  border-radius: 20px;
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.pass-box{
+  position: relative;
+}
+
+
+.icon-show button.icon {
+  display: inline-block;
+  position: absolute;
+  top: 14px;
+  right: 22px;
+  font-size: 20px;
+  border: none;
+  background: transparent;
+}
+
+
+.signIn-button button {
+  margin-top: 20px;
+  background-color: var(--nest-primary);
+  padding: 12px 20px;
+  display: block;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  border: none;
+}
+
+.signIn-button button:hover{
+  background-color: #fdc040 !important;
+  color: #fff;
+}
+
+
+.google-btn button {
+  background: transparent;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #c4c4c4;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.google-btn button img{
+   width: 45px;
+
+}
+
+/****** Responsive css *******/
+@media (min-width : 320px) and (max-width: 768px){
+  .breadcrumb {
+    display: none !important;
+  }
+
+  .image-part1 {
+    display: none;
+  }
+
+  .image-part {
+    display: block;
+    width: 100%;
+  }
+
+}
+
+
+
+@media (min-width : 768px) and (max-width: 992px){
+  .breadcrumb{
+    margin-top: 20px;
+  }
+  .single-part {
+    width: 0%;
+  }
+
+  .image-part1 {
+    display: block;
+    width: 45%;
+  }
+
+  .image-part {
+    display: block;
+    width: 45%;
+  }
+
+  .image-login img {
+    height: 442px;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+

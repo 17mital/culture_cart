@@ -1,0 +1,216 @@
+
+
+.home-slider{
+  padding: 25px 0px;
+  position: relative;
+}
+
+.home-slider-main{
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.home-slider-main .slick-dots{
+  display: block;
+  position: absolute;
+  bottom: 30px !important;
+}
+.home-slider-main .slick-dots button:before{
+   height: 10px;
+   width: 10px;
+   font-size: 16px;
+}
+
+.slick-active button:before{
+  color: var(--nest-primary) !important;
+}
+
+.slick-arrow{
+  position: absolute;
+  top: 47%;
+  height: 40px !important;
+  width: 40px !important;
+  background-color: #F2F3F4;
+  box-shadow: var(--shadow-md);
+  border-radius: 50%;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+}
+
+.slick-arrow:hover{
+  background-color: var(--nest-primary);
+}
+.slick-arrow.slick-prev{
+  margin-left: 4% !important;
+}
+.slick-arrow.slick-next{
+  margin-right: 4% !important;
+}
+
+.slick-prev::before{
+  content: "\f104" !important; 
+  font-family: FontAwesome !important;
+  color: #000;
+  font-size: 25PX;
+}
+
+.slick-next::before{
+  content: "\f105" !important; 
+  font-family: FontAwesome !important;
+  color: #000;
+  font-size: 25PX;
+}
+
+.slick-prev:hover::before{
+  color: #F2F3F4;
+}
+
+.slick-next:hover::before{
+  color: #F2F3F4;
+}
+
+/* css  */
+.home-slider-main .item{
+  position: relative;
+}
+.home-slider-main .item .info{
+   position: absolute;
+   top: 10%;
+   left: 10%;
+
+}
+
+.home-slider-main .item .info h2{
+  font-size: 60px;
+  font-weight: 600;
+  color: #f5f4ec;
+  margin-bottom: 30px;
+}
+.home-slider-main .item .info p{
+  font-size: 30px;
+  font-weight: 400;
+  color: #f1c8d9;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+/* form css */
+.subscribe-form {
+  height: 40px;
+  width: 500px;
+  position: absolute;
+  bottom: -24%;
+  left: 0%;
+} 
+.subscribe-form svg.send {
+  position: absolute;
+  top: 42%;
+  left: 4%;
+  font-size: 23px;
+}
+
+.subscribe-form input {
+  height: 57px;
+  width: 65%;
+  border: 1px solid #ececec;
+  border-radius: 50px 0 0 50px;
+  box-shadow: none;
+  padding-left: 50px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 16px;
+}
+
+.subscribe-form button{
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 40px;
+  color: #ffffff;
+  border: none;
+  background-color: #ad6d42;
+  border: 1px solid #e7e3dd;
+  border-radius: 50px;
+  position: relative;
+  left: -5%;
+} 
+
+/*************** Responsive css **************/
+@media (min-width : 320px) and (max-width: 575px){ 
+  .home-slider-main .item .info h2{
+    font-size: 22px;
+  }
+  .home-slider-main .item .info p{
+    font-size: 15px;
+  }
+
+
+
+}
+
+ @media (min-width : 575px) and (max-width: 767px){ 
+  .home-slider-main .item .info h2{
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  .home-slider-main .item .info p{
+    font-size: 22px;
+  }
+
+
+  
+}
+
+
+ @media (min-width : 767px) and (max-width: 992px){ 
+  .home-slider-main .item .info h2{
+    font-size: 35px;
+  
+  }
+  .home-slider-main .item .info p{
+    font-size: 26px;
+  }
+
+
+
+
+
+}   
+
+
+ @media (min-width : 320px) and (max-width: 768px){ 
+  .slick-arrow.slick-prev{
+    display: none !important;
+  }
+  .slick-arrow.slick-next{
+    display: none !important;
+  }
+
+
+
+}   
+
+ @media (min-width : 320px) and (max-width: 992px){ 
+  .home-slider {
+    margin-top: 57px !important;
+    padding: 0px !important;
+  }
+
+  .home-slider-main .item .info h2{
+    margin-bottom: 10px;
+  }
+
+  .subscribe-form{
+    display: none;
+  }
+
+
+
+}   
+
+
+
+
+
+
+
+

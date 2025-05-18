@@ -1,0 +1,368 @@
+const data = {
+    "productData": [
+      {
+        "cat_name": "Pooja-Samagri",
+        "id": "1",
+        "image": "https://www.drikpanchang.com/placeholder/images/page-showcase/270x180/puja_thali.png",
+        "items": [
+          {
+            "cat_name": "Ganpati-POOJA",
+          "products": [
+            {
+              "productName": "Ganesh Kit",
+              "price": "20",
+              "oldPrice": "140",
+              "catImg": "https://aaradhya.in/public/img/product/8_inch_aaradhya_kit_03.jpg",
+              "discount": "12",
+              "brand": "AASHIRVAAD",
+              "productImages": [
+                "https://aaradhya.in/public/img/product/8_inch_aaradhya_kit_03.jpg",
+                "https://aaradhya.in/public/img/product/8_inch_aaradhya_kit_03.jpg",
+                "https://aaradhya.in/public/img/product/8_inch_aaradhya_kit_03.jpg"
+              ],
+              "rating": 3.5,
+              "description": "Complete set for Ganesh Pooja including idols, incense, and offerings",
+              "id": 1
+            },
+            {
+              "productName": "Ganesh Pooja Samagri Box",
+              "price": "35",
+              "oldPrice": "130",
+              "catImg": "https://shastrafy.b-cdn.net/wp-content/uploads/2023/09/801_1.jpg",
+              "brand": "Rajhans",
+              "productImages": [
+                "https://shastrafy.b-cdn.net/wp-content/uploads/2023/09/801_1.jpg",
+                "https://shastrafy.b-cdn.net/wp-content/uploads/2023/09/801_1.jpg"
+               ],
+              "rating": 4.5,
+              "description": "This Ganesh Chaturthi set includes a small Ganesh idol, pooja samagri, and traditional offerings to help you celebrate with ease. Perfect for personal or family use.",
+              "id": 2
+            },
+          ]
+        },
+        {
+          "cat_name": "Diwali  Celebration ",
+          "products": [
+            {
+              "productName": "Diwali Pooja Samagri",
+              "price": "67",
+              "oldPrice": "320",
+              "catImg": "https://images-na.ssl-images-amazon.com/images/I/91pbS7VOIwL._SL1500_.jpg",
+              "discount": "18",
+              "brand": "Gowardhan",
+              "productImages": [
+                "https://images-na.ssl-images-amazon.com/images/I/91pbS7VOIwL._SL1500_.jpg",
+                "https://images-na.ssl-images-amazon.com/images/I/91pbS7VOIwL._SL1500_.jpg",
+              ],
+              "rating": 5,
+              "description": "Special Diwali Pooja Samagri with traditional Rajasthani items.",
+              "id": 3
+            },
+            {
+              "productName": "Bhaidooj Pooja Thali",
+              "price": "50",
+              "oldPrice": "200",
+              "catImg": "https://rukminim1.flixcart.com/image/416/416/kvlaaa80/prayer-kit/w/3/u/nit-174-puravedic-original-imag8gtzqnbtw5tq.jpeg?q=70",
+              "discount": "16",
+              "brand": "Nestle",
+              "productImages": [
+                "https://rukminim1.flixcart.com/image/416/416/kvlaaa80/prayer-kit/w/3/u/nit-174-puravedic-original-imag8gtzqnbtw5tq.jpeg?q=70",
+                "https://rukminim1.flixcart.com/image/416/416/kvlaaa80/prayer-kit/w/3/u/nit-174-puravedic-original-imag8gtzqnbtw5tq.jpeg?q=70",
+              ],
+              "rating": 4.5,
+              "description": "Complete Pooja Thali for Bhaidooj celebrations with all essentials.",
+              "id": 4
+            },
+          ]
+        },
+        {
+          "cat_name": "Durga Pooja",
+          "products": [
+            {
+              "productName": "Durga Pooja Essentials",
+              "price": "120",
+              "oldPrice": "380",
+              "catImg": "https://m.media-amazon.com/images/I/71ZOboeFPiL.jpg",
+              "discount": "13",
+              "brand": "Aashirvaad",
+              "productImages": [
+                "https://m.media-amazon.com/images/I/71ZOboeFPiL.jpg",
+                "https://m.media-amazon.com/images/I/71ZOboeFPiL.jpg",
+              ],
+              "rating": 5,
+              "description": "Complete set of Pooja essentials for Durga Pooja, including traditional items.",
+              "id": 5
+            },
+            {
+              "productName": "Navratri Pooja Thali",
+              "price": "350",
+              "oldPrice": "380",
+              "catImg": "https://i.pinimg.com/originals/c3/ed/f8/c3edf89d5f94d605f6950d37cd146ec7.jpg",
+              "discount": "17",
+              "brand": "Aashirvaad",
+              "productImages": [
+                "https://i.pinimg.com/originals/c3/ed/f8/c3edf89d5f94d605f6950d37cd146ec7.jpg",
+                "https://i.pinimg.com/originals/c3/ed/f8/c3edf89d5f94d605f6950d37cd146ec7.jpg",
+              ],
+              "rating": 0,
+              "description": "Aashirvaad ensures that only superior quality ingredients for your festivals & pooja",
+              "id": 6
+            },
+            {
+              "productName": "Kumartuli Durga Pooja idol",
+              "price": "300",
+              "oldPrice": "350",
+              "catImg": "https://assets.telegraphindia.com/telegraph/2023/Oct/1696936332_1680784497328-01.jpg",
+              "discount": "10",
+              "brand": "Good Life ",
+              "productImages": [
+                "https://assets.telegraphindia.com/telegraph/2023/Oct/1696936332_1680784497328-01.jpg",
+                "https://assets.telegraphindia.com/telegraph/2023/Oct/1696936332_1680784497328-01.jpg",
+              ],
+              "rating": 4.5,
+              "description": "Authentic Pooja idol sourced from Kumartuli, the heart of Kolkata&#39;s idol-making tradition.",
+              "id": 7
+            }
+          ]
+        },
+      ]
+      },
+      {
+        "cat_name": "Traditional Attire",
+        "id": "2",
+        "image": "https://as2.ftcdn.net/v2/jpg/01/89/43/99/1000_F_189439916_P5zFSn6iqklUXoRGK4G6JvDl8zxzNafc.jpg",
+        "items": [
+          {
+            "cat_name": "Paithani Saree",
+            "products": [
+              {
+                "productName": "Evala Paithani",
+                "price": "16,999.00",
+                "oldPrice": "19,999.00",
+                "catImg": "https://cdn.shopify.com/s/files/1/1469/7362/products/milky-white-color-pure-yeola-paithani-silk-saree-3.jpg?v=1678511959",
+                "discount": "12",
+                "brand": "Peshwai",
+                "productImages": [
+                  "https://cdn.shopify.com/s/files/1/1469/7362/products/milky-white-color-pure-yeola-paithani-silk-saree-3.jpg?v=1678511959",
+                  "https://cdn.shopify.com/s/files/1/1469/7362/products/milky-white-color-pure-yeola-paithani-silk-saree-3.jpg?v=1678511959",
+                ],
+                "rating": 4.5,
+                "description": "Traditional Maharashtrian Paithani saree with intricate zari work",
+                "id": 8
+              },
+              {
+                "productName": "Kapse Paithani",
+                "price": "26,900.00",
+                "oldPrice": "30,900.00",
+                "catImg": "https://tse3.mm.bing.net/th?id=OIP.VJaBqyk3BeSIr9XglXS8jgHaFs&pid=Api&P=0&h=180",
+                "discount": "20",
+                "brand": "Kapse",
+                "productImages": [
+                  "https://tse3.mm.bing.net/th?id=OIP.VJaBqyk3BeSIr9XglXS8jgHaFs&pid=Api&P=0&h=180",
+                  "https://tse3.mm.bing.net/th?id=OIP.VJaBqyk3BeSIr9XglXS8jgHaFs&pid=Api&P=0&h=180",
+                ],
+                "rating": 4.5,
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. ",
+                "id": 9
+              }
+            ]
+          },
+          {
+            "cat_name": "Bandhani Dupatta",
+            "products": [
+              {
+                "productName": "Rajasthani Bandhani Dupatta",
+                "price": "500.00",
+                "oldPrice": "1,000.00 ",
+                "catImg": "https://tse1.mm.bing.net/th?id=OIP.KBFdJsPNhaa40DJ838stNAHaJn&pid=Api&P=0&h=180",
+                "discount": "16",
+                "brand": "MarwadiOdhani",
+                "productImages": [
+                  "https://tse1.mm.bing.net/th?id=OIP.KBFdJsPNhaa40DJ838stNAHaJn&pid=Api&P=0&h=180",
+                  "https://tse1.mm.bing.net/th?id=OIP.KBFdJsPNhaa40DJ838stNAHaJn&pid=Api&P=0&h=180",
+                ],
+                "rating": 4.5,
+                "description": "Hand-tied Bandhani dupatta with vibrant colors and patterns.",
+                "id": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cat_name": "Food",
+        "id": "3",
+        "image":"https://i.pinimg.com/originals/eb/46/97/eb4697953d710be4b3c4fba295bc8a80.jpg",
+        "items": [
+          {
+            "cat_name": "Puran Poli",
+            "products": [
+              {
+                "productName": "Satara Special puran poli",
+                "price": "50",
+                "catImg": "https://tse3.mm.bing.net/th?id=OIP.2gwHizCQE0lnt5mP-TO1XAHaE8&pid=Api&P=0&h=180",
+                "brand": "MeethiMalai",
+                "productImages": [
+                  "https://tse3.mm.bing.net/th?id=OIP.2gwHizCQE0lnt5mP-TO1XAHaE8&pid=Api&P=0&h=180",
+                  "https://tse3.mm.bing.net/th?id=OIP.2gwHizCQE0lnt5mP-TO1XAHaE8&pid=Api&P=0&h=180",
+                ],
+                "rating": 4.5,
+                "description": "Sweet flatbread stuffed with jaggery and chana dal, a Maharashtrian delicacy.",
+                "id": 11
+              },
+            ]
+          },
+          {
+            "cat_name": "Ghewar",
+            "products": [
+              {
+                "productName": "Rajasthani sweet",
+                "price": "299.00",
+                "oldPrice": "389.00",
+                "catImg": "https://tse2.mm.bing.net/th?id=OIP.lCIHun1eAaHI7WuVezmtwgHaFA&pid=Api&P=0&h=180",
+                "discount": "65",
+                "brand": "Rudraaksha",
+                "productImages": [
+                  "https://tse2.mm.bing.net/th?id=OIP.lCIHun1eAaHI7WuVezmtwgHaFA&pid=Api&P=0&h=180",
+                  "https://tse2.mm.bing.net/th?id=OIP.lCIHun1eAaHI7WuVezmtwgHaFA&pid=Api&P=0&h=180",
+                  "https://tse2.mm.bing.net/th?id=OIP.lCIHun1eAaHI7WuVezmtwgHaFA&pid=Api&P=0&h=180"
+                ],
+                "rating": 4.5,
+                "description": "A traditional Rajasthani sweet made with flour and soaked in sugar syrup.",
+                "id": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cat_name": "Handicrafts",
+        "id": "4",
+        "image":"https://clipground.com/images/crafts-logo-7.jpg",
+        "items": [
+          {
+            "cat_name": "Terracotta Jewellery",
+            "products": [
+              {
+                "productName": "Widespread Terracotaa",
+                "price": "6000",
+                "catImg": "https://tse1.mm.bing.net/th?id=OIP.zf1nDWDisgYL9_DpD0fuaQHaGw&pid=Api&P=0&h=180",
+                "brand": "Widespred",
+                "productImages": [
+                  "https://tse1.mm.bing.net/th?id=OIP.zf1nDWDisgYL9_DpD0fuaQHaGw&pid=Api&P=0&h=180",
+                  "https://tse1.mm.bing.net/th?id=OIP.zf1nDWDisgYL9_DpD0fuaQHaGw&pid=Api&P=0&h=180",
+                ],
+                "rating": 4.5,
+                "description": "Jewellary made with sepcial handtouch",
+                "id": 13
+              },
+            ]
+          },
+          {
+            "cat_name": "Kolhapuri Footwear",
+            "products": [
+              {
+                "productName": "Kolhapurkar famous Chappal",
+                "price": "299.00",
+                "oldPrice": "389.00",
+                "catImg": "https://tse4.mm.bing.net/th?id=OIP.pX3C66CdTtE4g1J7tp1hewHaF2&pid=Api&P=0&h=180",
+                "discount": "65",
+                "brand": "Kolhapurkar",
+                "productImages": [
+                  "https://tse4.mm.bing.net/th?id=OIP.pX3C66CdTtE4g1J7tp1hewHaF2&pid=Api&P=0&h=180",
+                  "https://tse4.mm.bing.net/th?id=OIP.pX3C66CdTtE4g1J7tp1hewHaF2&pid=Api&P=0&h=180",
+                ],
+                "rating": 4.5,
+                "description": "A traditional kolhapuri footwear made with leather and handtouch.",
+                "id": 14
+              }
+            ]
+          }
+        ]
+      }
+
+    ],
+    "productReviews": [
+      {
+        "id": "4871",
+        "review": "very nice ",
+        "userName": "goutam ",
+        "rating": 4,
+        "productId": "1",
+        "date": "4/2/2024, 8:20:41 PM"
+      },
+      {
+        "id": "5d34",
+        "review": "goood ",
+        "userName": "sujan ",
+        "rating": 5,
+        "productId": "9",
+        "date": "4/2/2024, 8:21:37 PM"
+      },
+      {
+        "id": "87bb",
+        "review": "nice ",
+        "userName": "goutam ",
+        "rating": 4,
+        "productId": "7",
+        "date": "4/3/2024, 8:35:21 AM"
+      },
+      {
+        "id": "6f47",
+        "review": "fgjhf",
+        "userName": "fghfghfg",
+        "rating": 3,
+        "productId": "7",
+        "date": "4/3/2024, 8:36:16 AM"
+      }
+    ],
+    "cartItems": [
+      {
+        "id": "3",
+        "productName": "Diwali Pooja Samagri",
+        "price": "67",
+              "oldPrice": "320",
+              "catImg": "https://images-na.ssl-images-amazon.com/images/I/91pbS7VOIwL._SL1500_.jpg",
+              "discount": "18",
+              "brand": "Gowardhan",
+              "productImages": [
+                "https://images-na.ssl-images-amazon.com/images/I/91pbS7VOIwL._SL1500_.jpg",
+                "https://images-na.ssl-images-amazon.com/images/I/91pbS7VOIwL._SL1500_.jpg"
+              ],
+              "rating": 5,
+              "description": "Special Diwali Pooja Samagri with traditional Rajasthani items.",
+        "parentCatName": "Pooja-Samagari",
+        "subCatName": "Diwali  Celebration",
+        "quantity": 1
+      },
+      {
+        "id": "8",
+        "productName": "Evala Paithani",
+        "price": "16,999.00",
+        "oldPrice": "19,999.00",
+        "catImg": "https://cdn.shopify.com/s/files/1/1469/7362/products/milky-white-color-pure-yeola-paithani-silk-saree-3.jpg?v=1678511959",
+        "discount": "12",
+        "brand": "Peshwai",
+        "productImages": [
+          "https://cdn.shopify.com/s/files/1/1469/7362/products/milky-white-color-pure-yeola-paithani-silk-saree-3.jpg?v=1678511959",
+          "https://cdn.shopify.com/s/files/1/1469/7362/products/milky-white-color-pure-yeola-paithani-silk-saree-3.jpg?v=1678511959"
+        ],
+        "rating": 4.5,
+        "description": "Traditional Maharashtrian Paithani saree with intricate zari work",
+        "parentCatName": "Traditional Attire",
+        "subCatName": "Paithani Saree",
+        "quantity": 1
+      }
+    ]
+  }
+  
+  
+  export default data;
+  
+  
+  
+  
+  
+  
+  
+  

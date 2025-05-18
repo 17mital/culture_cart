@@ -1,0 +1,172 @@
+
+/******* sideber css ***********/
+.sidebar-left .card-box {
+  padding: 20px;
+  border: 1px solid rgb(239 239 239);
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.sidebar-left .card-box h2{
+  font-size: 24px;
+  color: #253D4E;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.sidebar-left .card-box h2::after {
+  content: "";
+  height: 2px;
+  width: 30%;
+  top: 64px;
+  left: 20px;
+  position: absolute;
+  background-color: var(--nest-primary);
+}
+
+.sidebar-left .card-box h2::before {
+  content: "";
+  height: 2px;
+  width: 85%;
+  top: 64px;
+  left: 20px;
+  position: absolute;
+  background-color: #ececec;
+}
+
+
+/* item alll  */
+.sidebar-left .card-box .catList {
+   margin-top: 40px;
+   margin-bottom: 50p;
+  
+}
+
+.sidebar-left .card-box .catList .catItem {
+  display: flex;
+  align-items: center;
+  width: 96%;
+  border: 1px solid rgb(224, 224, 224);
+  padding: 7px 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.sidebar-left .card-box .catList .catItem:hover{
+  background: #fff;
+  border: 1px solid #BCE3C9;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-in-out; 
+
+}
+.sidebar-left .card-box .catList .catItem .text{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.sidebar-left .card-box .catList .catItem .text a{
+   font-size: 14px;
+   color: #253D4E;
+   transition: all 0.3s ease-in-out; 
+}
+
+.sidebar-left .card-box .catList .catItem:hover .text a{
+color: var(--nest-primary);
+}
+.sidebar-left .card-box .catList .catItem .text img {
+    width: 16%;
+    margin-right: 10px;
+}
+.sidebar-left .card-box .catList .catItem .text p {
+  display: inline-block;
+  padding: 4px 6px ;
+  background-color: #bce3c9;
+  border-radius: 50%;
+  color: #000000;
+  font-size: 12px;
+}
+
+.secondCart{
+  margin-top: 80px;
+}
+
+
+/* filter section css */
+.customer-checkbox h6{
+  font-size: 16px;
+  font-weight: 700;
+  color:  #212529;
+  margin-bottom: 3px;
+}
+.customer-checkbox ul li{
+  color: #687188;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+.customer-checkbox ul li input{ 
+   font-size: 20px;
+}
+.customer-checkbox ul li label{
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+.customer-checkbox .color-count{
+  padding-left: 6px;
+}
+
+/* filter btn css */
+
+.card-box .btn-default-filter{
+  background-color: var(--nest-primary);
+  padding: 8px 20px;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 15px;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;  
+}
+
+
+.card-box .btn-default-filter:hover{
+  background-color: #f5ba3e;
+ 
+}
+
+.card-box .btn-default-filter .filter{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+
+.sidebar-left .card-box-img {
+  border: 1px solid rgb(239 239 239);
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+
+/* price filter css  */
+.card-box .colors{
+  margin-top: 6px;
+}
+.card-box .colors span{
+  color: #333 !important;
+  font-weight: 600;
+  font-size: 18px;
+
+
+}
+
+.card-box .colors .high-price{
+  margin-left: 27px;
+} 
+
+

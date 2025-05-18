@@ -1,0 +1,87 @@
+
+
+.topSellingbox h2{
+  font-size: 24px ;
+  color: #253D4E;
+  font-weight: 600;
+  position: relative;
+  
+}
+
+.topSellingbox h2::before {
+  content: "";
+  height: 2px;
+  width: 100%;
+  top: 44px;
+  left: 0px;
+  position: absolute;
+  background-color: #ececec;
+}
+
+.topSellingbox h2::after {
+  content: "";
+  height: 2px;
+  width: 30%;
+  top: 44px;
+  left: 0px;
+  position: absolute;
+  background-color: var(--nest-primary);
+}
+
+.topSellingbox .item {
+  margin: 50px 0px;
+  transition: all 0.3s ease-in-out;
+}
+
+.topSellingbox .item:hover{
+  transform: translateY(-6px);
+}
+.topSellingbox .item .item-image{
+  width: 45%;
+}
+
+.topSellingbox .item .item-image img{
+   width: 100%;
+   border-radius: 10px;
+
+}
+
+.topSellingbox .item .item-text{
+  margin-left: 18px;
+}
+
+.topSellingbox .item .item-text h6 a{
+   color: #253D4E;
+   font-size: 16px;
+   font-weight: 600;
+}
+
+.topSellingbox .item .item-text h6 a:hover{
+  color: var(--nest-primary);
+}
+
+.topSellingbox .item .item-text .product-rate span {
+  color: #B6B6B6 !important;
+  margin-left: 5px !important;
+  position: relative;
+  top: 4px !important;
+
+}
+
+.topSellingbox .item .item-text .product-card-bottom .salePrice{
+  color: #3BB77E;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.topSellingbox .item .item-text .product-card-bottom .regularPrice{
+  color: #B6B6B6 !important ;
+  font-size: 15px !important;
+  font-weight: 500;
+}
+
+
+
+
+
+

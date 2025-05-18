@@ -1,0 +1,561 @@
+
+
+
+/************** new latter  ****************/
+.news-letter{
+  background-image: url("../../assets//img/banner/banner-9.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 20px 20px !important;
+  width: 98%;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 400px;
+  position: relative;
+  
+  
+  }
+  .news-letter .photo-box img{
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    width: 40%;
+  }
+  
+  .news-letter .item{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  .news-letter .item .info{
+     position: absolute;
+     top: 10%;
+     left: 5%;
+     padding-top: 50px;
+     padding-bottom: 10px;
+  }
+  
+  .news-letter .item .info h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #253D4E;
+    margin-bottom: 30px;
+  }
+  .news-letter .item .info p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #7E7E7E;
+    line-height: 24px;
+  }
+  .news-letter .item .info p a{
+    color: var(--nest-primary);
+  }
+  /* form css */
+  .subscribe-form {
+    height: 40px;
+    width: 500px;
+    position: absolute;
+    bottom: -24%;
+    left: 0%;
+  } 
+  .subscribe-form svg.send {
+    position: absolute;
+    top: 42%;
+    left: 4%;
+    font-size: 23px;
+  }
+  
+  .subscribe-form input {
+    height: 57px;
+    width: 65%;
+    border: 1px solid #ececec;
+    border-radius: 50px 0 0 50px;
+    box-shadow: none;
+    padding-left: 50px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 16px;
+  }
+  
+  .subscribe-form button{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 40px;
+    color: #ffffff;
+    border: none;
+    background-color: #3BB77E;
+    border: 1px solid #29A56C;
+    border-radius: 50px;
+    position: relative;
+    left: -5%;
+  } 
+
+
+
+
+
+/*************** top footer csss *****************/
+.top-footer{
+  padding: 25px 0px;
+  
+}
+
+.top-footer .collumPartAll{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+}
+.top-footer .collumPartAll .item-box-icon {
+  width: 20%;
+  height: 134px;
+  display: flex;
+  align-items: center;
+  background: #F4F6FA;
+  padding: 20px !important;
+  border-radius: 10px;
+}
+
+.top-footer .collumPartAll .single-text {
+  margin-left: 13px;
+  height: 85px;
+}
+
+.top-footer .collumPartAll .single-text h4{
+font-size: 17px;
+font-weight: 500;
+color: #242424;
+}
+.top-footer .collumPartAll .single-text p{
+font-size: 16px;
+font-weight: 400;
+color: #ADADAD;
+}
+
+
+/********** bottom footer css *************/
+.footer-section .footer-all-part .footer-part1{
+  width: 21%;
+}
+
+.footer-section .footer-all-part  .footer-part1 .footer-left-box img{
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+
+.footer-section .footer-all-part .footer-part1 .footer-left-box h4 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #253D4E;
+  margin-bottom: 20px;
+}
+
+.footer-section .footer-all-part  .footer-part1 .footer-left-box p{
+  font-size: 15px;
+  color:  #253D4E;
+  font-weight: 400;
+
+}
+.footer-section .footer-all-part  .footer-part1 .footer-left-box p span{
+  color: var(--nest-primary);
+  font-size: 16px;
+  padding-right: 2px;
+ 
+}
+
+.footer-section .footer-all-part  .footer-part1 .footer-left-box p .link-text-all {
+   color: var(--nest-primary) !important;
+} 
+
+/* part 2 css */
+
+.footer-section .footer-all-part  .footer-part2 h2 {
+   color:  #253D4E !important;
+   font-size: 25px;
+   font-weight: 600;
+   margin-top: 20px;
+   margin-bottom: 20px;
+} 
+
+.footer-section .footer-all-part  .footer-part2 ul li a{
+  display: block;
+  margin: 0 0 13px;
+  transition-duration: 0.3s;
+  font-weight: 500;
+  line-height: 24px;
+  color: #253D4E;
+}
+.footer-section .footer-all-part  .footer-part2 ul li a:hover{
+  color: var(--nest-primary);
+}
+
+/* right box */
+
+.footer-section .footer-all-part  .footer-part1 .footer-right-box h2{
+  color:  #253D4E !important;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.footer-section .footer-all-part  .footer-part1 .footer-right-box p{
+  color:  #253D4E !important;
+  font-weight: 400;
+  
+
+}
+.footer-section .footer-all-part  .footer-part1 .footer-right-box .image a img{
+  width: 140px;
+}
+
+.footer-section .footer-all-part  .footer-part1 .footer-right-box .image2  p{
+  margin-top: 10px;
+  padding: 10px 0px;
+}
+.footer-section .footer-all-part  .footer-part1 .footer-right-box .image2 a img{
+  width: 300px;
+}
+
+
+
+/*************** bottom footer **************/
+.bottom-footer{
+  border-top: 1px solid var(--nest-primary);
+  padding: 30px 0px;
+}
+.bottom-footer .footer-left p a{
+   font-size: 16px;
+   font-weight: 600;
+   color: var(--nest-primary);
+}
+
+.bottom-footer .middle-bar{
+   display: flex;
+   gap: 30px;
+}
+.bottom-footer .middle-bar .icon-call{
+ display: flex;
+ gap: 10px;
+
+}
+
+.bottom-footer .middle-bar .icon-call .icon{
+   font-size: 35px;
+   color: #7E7E7E;
+} 
+.bottom-footer .middle-bar .icon-call .call h2{
+   font-size: 25px;
+   color: var(--nest-primary);
+   margin-bottom: 0px;
+
+} 
+.bottom-footer .middle-bar .icon-call .call p{
+   font-size: 12px;
+   font-weight: 500;
+   color: #7E7E7E;
+
+} 
+
+/* right  */
+.bottom-right .follow-media{
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  
+}
+.bottom-right .follow-media .follow p{
+   font-size: 16px;
+   font-weight: 600;
+   color:  #253D4E;
+   margin-bottom: 5px;
+}
+
+.bottom-right .follow-media .media span .all-icon{
+    font-size: 20px;
+    color: var(--nest-primary);
+    margin-right: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.bottom-right .follow-media .media span .all-icon:hover{
+  transform: translateY(-4px);
+}
+
+.bottom-right p{
+  text-align: end;
+  font-size: 16px;
+  font-weight: 400;
+  color: #7E7E7E;
+}
+
+
+
+/************ Footer newsletter  section **************/
+@media (min-width : 320px) and (max-width: 576px){ 
+  .news-letter .item .info h2 {
+    font-size: 23px;
+}
+.news-letter {
+  width: 90%;
+  height: 220px;
+}
+
+.news-letter .item .info p {
+  font-size: 13px;
+
+}
+
+}
+
+
+
+@media (min-width : 576px) and (max-width: 768px){ 
+  .news-letter .item .info h2 {
+    font-size: 25px;
+   font-weight: 500;
+}
+
+.news-letter {
+  width: 92%;
+  height: 250px;
+}
+
+.news-letter .item .info p {
+  font-size: 17px;
+
+}
+
+}
+
+
+@media (min-width : 768px) and (max-width: 992px){ 
+  .news-letter {
+    width: 95%;
+    height: 274px;
+}
+.news-letter .item .info p {
+  font-size: 20px;
+
+}
+}
+
+
+
+
+/********* top-footer  *********/
+
+@media (min-width : 320px) and (max-width: 768px){ 
+
+  .top-footer .collumPartAll {
+    display: block;
+ }
+ 
+ .top-footer .collumPartAll .item-box-icon {
+   width: 100%;
+  margin: 15px 0px !important;
+ }
+ .top-footer .collumPartAll .single-text {
+  margin-top: 17px;
+}
+
+}
+
+@media (min-width : 768px) and (max-width: 992px){ 
+  .top-footer .collumPartAll {
+    display: flex;
+    gap: 10px;
+}
+  
+.top-footer .collumPartAll .item-box-icon {
+  width: 20%;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px !important;
+  text-align: center;
+
+}
+
+
+.single-img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+}
+
+/********* Bottom-footer responsive css   *********/
+
+@media (min-width : 320px) and (max-width: 576px){ 
+  .footer-all-part {
+    display: flex;
+    flex-flow: wrap;
+}
+.footer-section .footer-all-part .footer-part1 {
+  width: 100% !important;
+  display: block;
+}
+
+.footer-part2 {
+  width: 50% !important;
+  display: block;
+  margin-top: 36px !important;
+}
+
+.footer-section .footer-all-part  .footer-part1 .footer-left-box img {
+  width: 40%;
+  margin-bottom: 20px;
+}
+.footer-section .footer-all-part  .footer-part2 h2 {
+  font-size: 20px;
+}
+
+
+.footer-section .footer-all-part  .footer-part2 ul li a {
+  font-size: 15px !important;
+}
+
+
+
+}
+
+
+@media (min-width : 576px) and (max-width: 768px){ 
+  .footer-all-part{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-part1 {
+   width: 50% !important;
+  }
+  
+  .footer-part2 {
+   width: 50% !important;
+  }
+  
+  .footer-part2 {
+     margin-top: 0px !important; 
+}
+
+
+}
+
+@media (min-width : 768px) and (max-width: 992px){ 
+  .footer-all-part{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-part1 {
+   width: 33% !important;
+  }
+  
+  .footer-part2 {
+   width: 33% !important;
+  }
+  
+  .footer-part2 {
+     margin-top: 0px !important; 
+}
+
+.footer-section .footer-all-part  .footer-part1 .footer-left-box p {
+  padding-right: 16px !important;
+}
+
+
+}
+
+
+
+/********  footer contact section  ********/
+@media (min-width : 320px) and (max-width: 576px){
+  .footer-left {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 13px;
+}
+.bottom-footer .middle-bar {
+  gap: 17px;
+  margin: auto;
+}
+
+.bottom-footer .middle-bar .icon-call .call h2 {
+  font-size: 19px;
+
+}
+.middle-bar.middle-contact {
+  justify-content: center;
+  padding: 20px 0px !important;
+}
+
+.bottom-right {
+  margin: auto;
+}
+
+.bottom-footer .middle-bar .icon-call .icon {
+  font-size: 26px;
+}
+
+.bottom-right .follow-media {
+  justify-content: center;
+}
+.bottom-right p {
+  text-align: center;
+}
+
+}
+
+
+
+/*********** Min 576px & Max 768px  *****************/
+@media (min-width : 576px) and (max-width: 768px){
+  .follow-media{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center !important;
+    gap: 0px !important;
+    margin-bottom: 10px;
+  }
+  .bottom-right p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7E7E7E;
+}
+
+}
+
+/*********** Min 576px & Max 992px  *****************/
+@media (min-width : 576px) and (max-width: 992px){
+.same-width{
+  width: 33% !important;
+}
+
+
+.middle-bar.middle-contact.same-width{
+  display: flex;
+  flex-direction: column;
+}
+.bottom-footer .middle-bar .icon-call .call h2 {
+  font-size: 22px !important;
+
+}
+
+.bottom-footer .middle-bar .icon-call .icon {
+  font-size: 28px;
+}
+
+
+}
+
+
+
+
+
+
+
+
