@@ -69,8 +69,7 @@ This project is a group effort by the following amazing team members:
 
 - 🧑‍💻 **Mital Patil**  
 - 👩‍💻 **Samiksha Suryawanshi**  
-- 🧑‍💻 **Aarjav Jain**  
-- 🧑‍💻 **Sanket Patil**
+
 
 Thank you all for your dedication and creativity!
 
